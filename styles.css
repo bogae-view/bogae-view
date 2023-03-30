@@ -1,0 +1,131 @@
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+::selection{
+    background-color: #b87a16;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bogae_view_logo {
+    height: 5.5em;
+    background-color: transparent;
+    border: none;
+}
+
+.bogae_view_logo_btn {
+    background-color: white;
+    border: none;
+}
+
+.bogae_view_logo_btn:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+.head {
+    display: flex;
+    background-color: green;
+    justify-content: space-evenly
+}
+
+.version {
+    text-align: center;
+}
+.info {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.source, .intro {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+    text-align: center;
+}
+
+.searchgroup {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    border: none;
+    background-color: #03b000;
+    width: 600px;
+    height: 30px;
+    font-size: larger;
+}
+
+.search-button {
+    border: none;
+    background-color: gold;
+    border-radius: 10%;
+}
+
+.search-button:hover {
+    background-color: blue;
+
+}
+
+.search-results {
+    text-align: center;
+    list-style: none;
+}
+
+.sec3 {
+    text-align: center;
+}
+
+.bookmarks {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.b-item {
+    color: green;
+}
+
+.feedback {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-input {
+    resize: none;
+}
+
+.sub-btn{
+    background-color: gold;
+    border: none;
+}
+
+.sub-btn:hover {
+    background-color: blue;
+}
